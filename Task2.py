@@ -78,7 +78,7 @@ top_k = 500
 selected_data = ext_data.nlargest(top_k, 'influence_score')
 
 # Save the selected dataset
-selected_data.to_csv("../tasks/Selected-External-Dataset.csv", index=False)
+selected_data.to_csv("C:\\Users\\Misbahsayeeda\\Desktop\\nnti-project\\Selected-External-Dataset.csv", index=False)
 
 print("Top-k influential samples selected and saved.")
 
